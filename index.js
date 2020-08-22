@@ -42,3 +42,10 @@ alert(jiina);
 alert(namename);
 
 
+//cannot replicate
+
+let messaji = "Hello WOrld";
+
+let messaji = "Bye World";
+
+alert (messaji);
