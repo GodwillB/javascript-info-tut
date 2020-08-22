@@ -10,7 +10,7 @@ let residence = 'Kakamega';
 
 let jina = 'Godwill', miaka = 26, anapotoka = 'Kakamega';
 
-alert (residence);
+// alert (residence);
 
 
 
@@ -24,7 +24,7 @@ message = 'Doho';
 
 message = 'Lonely'
 
-alert(message);
+// alert(message);
 
 
 // We can also declare two variables and copy data from one into the other.
@@ -38,8 +38,8 @@ let namename;
 
 namename = jiina;
 
-alert(jiina);
-alert(namename);
+// alert(jiina);
+// alert(namename);
 
 
 //cannot replicate
@@ -48,7 +48,7 @@ let messaji = "Hello WOrld";
 
 // let messaji = "Bye World";
 
-alert (messaji);
+// alert (messaji);
 
 
 // Reserved keywords as of ECMAScript 2015
@@ -94,7 +94,7 @@ alert (messaji);
 const myBirthday = '18.04.1982';
 // myBirthday = '01.01.2001';
 
-alert(myBirthday);
+// alert(myBirthday);
 
 
 // Uncaught TypeError: Assignment to constant variable at index.js:95
@@ -110,10 +110,11 @@ let admin;
 
 admin = name;
 
-alert(admin);
+// alert(admin);
 
 
 // Exercise
 let planet = 'Earth';
 
 let currentUser = "John";
+
