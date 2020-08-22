@@ -46,7 +46,7 @@ alert(namename);
 
 let messaji = "Hello WOrld";
 
-let messaji = "Bye World";
+// let messaji = "Bye World";
 
 alert (messaji);
 
@@ -86,3 +86,15 @@ alert (messaji);
 // while
 // with
 // yield
+
+// Constants
+// ---------------------------------------------------------------------
+// To declare a constant (unchanging) variable, use const instead of let:
+
+const myBirthday = '18.04.1982';
+myBirthday = '01.01.2001';
+
+alert(myBirthday);
+
+
+// Uncaught TypeError: Assignment to constant variable at index.js:95
