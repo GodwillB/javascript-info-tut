@@ -111,3 +111,9 @@ let admin;
 admin = name;
 
 alert(admin);
+
+
+// Exercise
+let planet = 'Earth';
+
+let currentUser = "John";
