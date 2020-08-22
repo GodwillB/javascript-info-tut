@@ -1,10 +1,10 @@
 // Variables
 
-let name = 'Godwill';
+// let name = 'Godwill';
 let age = 26;
 let residence = 'Kakamega';
 
-alert (name);
+// alert (name);
 
 // multiple variables in this multiline style:
 
@@ -92,9 +92,22 @@ alert (messaji);
 // To declare a constant (unchanging) variable, use const instead of let:
 
 const myBirthday = '18.04.1982';
-myBirthday = '01.01.2001';
+// myBirthday = '01.01.2001';
 
 alert(myBirthday);
 
 
 // Uncaught TypeError: Assignment to constant variable at index.js:95
+
+
+
+// Exercise
+
+let name = "John";
+
+let admin;
+
+
+admin = name;
+
+alert(admin);
