@@ -62,3 +62,8 @@ myCar.make = "Ford";
 myCar.model = "Mustang";
 
 console.log(myCar.make);
+
+
+
+//
+prompt ('who is u');
