@@ -62,3 +62,51 @@ alert( +y ); // -2
 // Converts non-numbers
 alert( +true ); // 1
 alert( +"" );   // 0
+
+// Let’s meet features of JavaScript operators that are beyond school arithmetics.
+
+// Usually, the plus operator + sums numbers.
+
+// But, if the binary + is applied to strings, it merges (concatenates) them:
+
+let s = "my" + "string";
+alert(s); // mystring
+// Note that if any of the operands is a string, then the other one is converted to a string too.
+
+// For example:
+
+alert( '1' + 2 ); // "12"
+alert( 2 + '1' ); // "21"
+// See, it doesn’t matter whether the first operand is a string or the second one.
+
+// Here’s a more complex example:
+
+alert(2 + 2 + '1' ); // "41" and not "221"
+// Here, operators work one after another. The first + sums two numbers, so it returns 4, then the next + adds the string 1 to it, so it’s like 4 + '1' = '41'.
+
+alert('1' + 2 + 2); // "122" and not "14"
+// Here, the first operand is a string, the compiler treats the other two operands as strings too. The 2 gets concatenated to '1', so it’s like '1' + 2 = "12" and "12" + 2 = "122".
+
+// The binary + is the only operator that supports strings in such a way. Other arithmetic operators work only with numbers and always convert their operands to numbers.
+
+// Here’s the demo for subtraction and division:
+
+alert( 6 - '2' ); // 4, converts '2' to a number
+alert( '6' / '2' ); // 3, converts both operands to numbers
+// Numeric conversion, unary +
+// The plus + exists in two forms: the binary form that we used above and the unary form.
+
+// The unary plus or, in other words, the plus operator + applied to a single value, doesn’t do anything to numbers. But if the operand is not a number, the unary plus converts it into a number.
+
+// For example:
+
+// No effect on numbers
+let x = 1;
+alert( +x ); // 1
+
+let y = -2;
+alert( +y ); // -2
+
+// Converts non-numbers
+alert( +true ); // 1
+alert( +"" );   // 0
