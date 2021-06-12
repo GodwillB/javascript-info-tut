@@ -110,3 +110,8 @@ alert( +y ); // -2
 // Converts non-numbers
 alert( +true ); // 1
 alert( +"" );   // 0
+
+
+alert( 5 % 2 ); // 1, a remainder of 5 divided by 2
+alert( 8 % 3 ); // 2, a remainder of 8 divided by 3
+
