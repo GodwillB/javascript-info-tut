@@ -3,6 +3,8 @@
 // An operator is unary if it has a single operand. For example, the unary negation - reverses the sign of a number:
 
 let x = 1;
+let r = 2;
+
 
 x = -x;
 alert( x ); // -1, unary negation was applied
